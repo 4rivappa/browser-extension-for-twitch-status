@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "timeenjoyed twitch status",
+  "version": "0.1",
+
+  "description": "live status of estha on twitch",
+
+  "icons": {
+    "128": "icons/extension-logo-white-text.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/extension-logo-white-text.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["activeTab"]
+}
